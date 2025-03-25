@@ -1,0 +1,40 @@
+{
+    "version": "1.0",
+    "CameraBooster": {
+        "support": {
+            "camera_dynamics_zone_watermark_support": true,
+            "animation_inhibit_support": true
+        },
+        "oom": {
+            "oom_level": "51200:0,89600:100,128000:200,179200:251,524288:701,786432:800",
+            "psi_level": "28,15,10,7"
+        },
+        "oom_8Gmem": {
+            "oom_level": "51200:0,89600:100,128000:200,179200:251,262144:701,393216:800",
+            "psi_level": "35,25,14,10"
+        },
+        "threshold": {
+               "free_memory_threshold": 1677721,
+               "restart_kill_duration": 3000,
+               "camera_dynamics_zone_watermark_value": 20
+         },
+         "threshold_8Gmem": {
+            "free_memory_threshold": 1500000,
+            "camera_dynamics_zone_watermark_value": 40
+         },
+        "configs": [
+            {
+                "name": "inhibit_native_list",
+                "config": [
+                    "logd",
+                    "diag-router",
+                    "cnss_diag",
+                    "dex2oat64",
+                    "mrmd",
+                    "tango_pretranslator",
+                    "adbd"
+                ]
+            }
+        ]
+    }
+}
