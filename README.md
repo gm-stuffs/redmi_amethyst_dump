@@ -1,0 +1,14 @@
+# missi_phone_global_only64-user 14 UKQ1.240523.001 V816.0.7.0.UOPMIXM release-keys
+- manufacturer: xiaomi
+- platform: volcano
+- codename: amethyst
+- flavor: missi_phone_global_only64-user
+- release: 14
+- id: UKQ1.240523.001
+- incremental: V816.0.7.0.UOPMIXM
+- tags: release-keys
+- fingerprint: Redmi/amethyst_in/amethyst:14/UKQ1.240523.001/V816.0.7.0.UOPMIXM:user/release-keys
+- is_ab: true
+- brand: Redmi
+- branch: missi_phone_global_only64-user-14-UKQ1.240523.001-V816.0.7.0.UOPMIXM-release-keys
+- repo: redmi_amethyst_dump

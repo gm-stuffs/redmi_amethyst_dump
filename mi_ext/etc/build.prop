@@ -1,0 +1,14 @@
+ro.miui.google.csp=true
+ro.product.mod_device=amethyst_global
+ro.thermal.iec.enable=true
+ro.vendor.miui.use_google_lpa=true
+ro.miui.build.region=global
+setupwizard.feature.enable_quick_start_flow=true
+ro.com.google.ime.system_lm_dir=product/usr/share/ime/google/d3_lms/
+ro.miui.customized_clientid=2
+setupwizard.feature.enable_quick_enhanced_biometrics_flow=true
+ro.vendor.imeisv=03
+ro.mi.os.version.publish=true
+ro.mi.os.version.code=1
+ro.mi.os.version.name=OS1.0
+ro.mi.os.version.incremental=OS1.0.7.0.UOPMIXM
